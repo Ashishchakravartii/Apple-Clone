@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.main-box {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(apple\ background.jpg);
+    background-position: center;
+    background-size: 195%;
+    background-repeat: no-repeat;
+}
+
+nav {
+    width: 100vw;
+    height: 6vh;
+    background-color: #434344;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+   
+    
+}
+nav a{
+    color: #DADADA;
+    text-decoration: none;
+    scale: 0.7;
+    font-weight: 200;
+    margin-left:0.4vmax;
+    margin-right:1.2vmax;
+    justify-content: center;
+    align-items: center;
+}
+.filler{
+    width: 1max;
+}
+.nav-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.white-bar {
+    width: 100vw;
+    height: 6vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.white-bar h1 {
+    font-size: 1.9vmin;
+    font-weight: 400;
+    color: #434344;
+}
+.white-bar h1>a{
+    text-decoration: none;
+    color:#1472D0;
+}
+
+.banner-head{
+   color: #F5F5F7;
+   margin-top: 3vmax;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: start;
+   font-size: 1.8vmax;
+   letter-spacing: -0.3vmin;
+   line-height: 3.2vmax;
+}
+.banner-head h4>a{
+    font-size: 1.4vmax;
+    font-weight: 400;
+    letter-spacing: -0.2vmin;
+    text-decoration: none;
+    color: #2589E8;
+}
