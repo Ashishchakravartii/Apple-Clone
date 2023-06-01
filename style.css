@@ -155,6 +155,7 @@ nav a {
     font-size: 1.8vmax;
 
 }
+
 .banner-head-page3-right {
     display: flex;
     flex-direction: column;
@@ -172,19 +173,20 @@ nav a {
 
 }
 
-.banner-head-page3-left h6{
+.banner-head-page3-left h6 {
     color: #A71B1F;
-     letter-spacing: 0.1vmax;
-     font-size: 1.8vmin;
-     font-weight: 500;
+    letter-spacing: 0.1vmax;
+    font-size: 1.8vmin;
+    font-weight: 500;
 }
-.banner-head-page3-left h5{
+
+.banner-head-page3-left h5 {
     font-size: 2.6vmin;
     font-weight: 500;
 }
 
 
-.page3-left-1st-h4{
+.page3-left-1st-h4 {
     margin-top: 1.8vmax;
     font-size: 2vmax;
 }
@@ -197,22 +199,134 @@ nav a {
 
 }
 
-.banner-head-page3-right h6{
+.banner-head-page3-right h6 {
     color: #A71B1F;
-     letter-spacing: 0.1vmax;
-     font-size: 1.8vmin;
-     font-weight: 500;
+    letter-spacing: 0.1vmax;
+    font-size: 1.8vmin;
+    font-weight: 500;
 }
-.banner-head-page3-right h5{
+
+.banner-head-page3-right h5 {
     font-size: 2.6vmin;
     font-weight: 500;
     margin-top: -1vmax;
 }
 
 
-.page3-right-1st-h4{
+.page3-right-1st-h4 {
     margin-top: 1.8vmax;
     font-size: 2.5vmax;
     letter-spacing: -0.3vmin;
 }
 
+.page4 {
+    width: 100vw;
+    height: 78vh;
+    background-color: white;
+    display: flex;
+    padding-top: 0.7vmax;
+}
+
+.page4-left {
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    background-image: url(https://www.apple.com/v/home/ba/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_medium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 97%;
+
+
+}
+
+.page4-right {
+    height: 100%;
+    width: 49%;
+    background-color: black;
+    background-image: url(https://www.apple.com/v/home/ba/images/promos/apple-watch-pride/promo_pride23__cnpic94fthle_medium.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 2vmax;
+
+
+}
+
+.banner-head-page4-left {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8vmax;
+
+}
+
+.banner-head-page4-left h4>a {
+    text-decoration: none;
+    font-size: 1.1vmax;
+    color: #2589E8;
+    font-weight: 500;
+
+}
+
+.banner-head-page4-left h6 {
+    color: #A71B1F;
+    letter-spacing: 0.1vmax;
+    font-size: 1.8vmin;
+    font-weight: 500;
+}
+
+.banner-head-page4-left h5 {
+    font-size: 2.6vmin;
+    font-weight: 500;
+}
+
+
+.page4-left-1st-h4 {
+    margin-top: 1.8vmax;
+    font-size: 2vmax;
+}
+
+.banner-head-page4-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8vmax;
+
+}
+
+.banner-head-page4-right h4>a {
+    text-decoration: none;
+    font-size: 1.1vmax;
+    color: #2589E8;
+    font-weight: 500;
+
+}
+
+.banner-head-page4-right h6 {
+    color: #A71B1F;
+    letter-spacing: 0.1vmax;
+    font-size: 1.8vmin;
+    font-weight: 500;
+}
+
+.banner-head-page4-right h5 {
+    font-size: 2.6vmin;
+    font-weight: 500;
+    margin-top: -1vmax;
+}
+
+
+.page4-right-1st-h4 {
+    margin-top: 1.8vmax;
+    font-size: 2.5vmax;
+    letter-spacing: -0.3vmin;
+}
+.page5 {
+    width: 100vw;
+    height: 78vh;
+    background-color: white;
+    padding-top: 0.7vmax;
+}
