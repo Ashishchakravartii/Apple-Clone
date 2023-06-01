@@ -324,6 +324,7 @@ nav a {
     font-size: 2.5vmax;
     letter-spacing: -0.3vmin;
 }
+
 .page5 {
     width: 97.2vw;
     margin-left: 0.6vmax;
@@ -335,15 +336,16 @@ nav a {
 
 
 }
-.page5 video{
+
+.page5 video {
     width: 100%;
     height: 100%;
     object-fit: contain;
     display: table;
-    
+
 }
 
-.page5-textOverVideo{
+.page5-textOverVideo {
     position: absolute;
     top: 73%;
     left: 31%;
@@ -351,20 +353,57 @@ nav a {
     text-align: center;
 }
 
-.page5-textOverVideo h1{
+.page5-textOverVideo h1 {
     font-size: 4vmax;
 }
-.page5-textOverVideo h1>img{
+
+.page5-textOverVideo h1>img {
     width: 3.5vmax;
     height: 3.5vmax;
-   
+
 }
-.page5-textOverVideo h3{
+
+.page5-textOverVideo h3 {
     font-size: 1.8vmax;
     font-weight: 500;
 }
-.page5-textOverVideo a{
-   text-decoration: none;
-   color: #2589E8;
 
+.page5-textOverVideo a {
+    text-decoration: none;
+    color: #2589E8;
+
+}
+
+@media(max-width: 600px) {
+    .nav-box a{
+        display: initial;
+    }
+
+    .white-bar{
+        height: 8vh;
+    }
+    .white-bar h1{
+       font-size: 1.5vmax;
+       text-align: center;
+    }
+    .page1 {
+        background-image: url(https://www.apple.com/in/home/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_small.jpg);
+        height: 50%;
+        width: 100vw;
+        background-size: cover;
+        background-position: center;
+    }
+    .banner-head{
+        font-size: 2.5vmax;
+        margin-top: 5vmax;
+    }
+    .banner-head h4{
+        margin-top: 1.5vmax;
+        font-weight: 400;
+    }
+    .banner-head h4>a{
+        font-weight: 500;
+        font-size: 2vmax;
+
+    }
 }
